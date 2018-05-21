@@ -1,0 +1,180 @@
+/* Prevents bounce when scrolling */
+html, body {
+	height: 100%
+	overflow: hidden;
+/*removed white space around image */
+  margin: 0;
+}
+/* Prevents bounce when scrolling */
+.wrapper {
+	position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.navbar {
+  margin-bottom: 0 !important;
+	background-color: #ffffff !important;
+	border: none !important;
+}
+
+.navbar-brand {
+	padding: 5px 25px 5px !important;
+}
+
+.banner {
+  width: 100%;
+  height: 800px;
+  background-image: url(../assets/banner-image/janeaustenbackground2white.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide {
+  height:400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-inner {
+  width: 50% !important;
+}
+
+footer {
+  background-color: #e1d0c9;
+}
+
+.copyright {
+  height: 30px;
+  background-color: #C3C0C8;
+  padding: 5px;
+}
+
+.freepik {
+  height: 15px;
+}
+
+/* .carousel-inner {
+
+  height: 600px;
+}
+.carousel-inner p {
+  /* padding: 100px; */
+
+
+blockquote:before, blockquote:after {
+    color:#EBB1B2;
+    content:'\f10d';
+    font-family:'FontAwesome';
+}
+
+blockquote:after {
+    content:'\f10e';
+    float: right;
+}
+
+blockquote p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.carousel-control.left {
+  background-image: none !important;
+}
+
+.carousel-control.right {
+  background-image: none !important;
+}
+
+/* ////////////////////////////////////////////////////////////////////TIMELINE/////////////////////////////////////////////////////////////////////////////////////// */
+
+.timeline-section {
+	background-color: #C3C0C8;
+	color: #777;
+	padding: 30px; /* This is so the white border shows up */
+}
+
+.timeline-container {
+	position: relative;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.timeline-container::before {
+  /* this is the vertical line */
+		content: '';
+		background: white;
+		width: 4px;
+		height: 98%;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+}
+
+.timeline-circle {
+	/* these are the points on the line */
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	margin-top: -10px;
+	margin-left: -15px;
+	background-color: #636a36;
+}
+
+.timeline-block {
+	width: 100%;
+	height: 180px; /* Height is very important! */
+	margin-bottom: 50px;
+}
+
+/* removes margin from last timeline item so equidistant from top and bottom */
+.timeline-block:last-child {
+	margin-bottom: 0;
+}
+
+.timeline-content {
+	position: relative;
+	padding: 10px 30px;
+	border-radius: 8px;
+	background: white;
+	box-shadow: 0 30px 25px -15px #a69089;
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 400px;
+}
+
+.date {
+	background: #e5d2d2;
+	display: inline-block;
+	color: #7c7575;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 15px;
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 500;
+}
+
+.timeline-block:nth-child(even) .date {
+	right: auto;
+	left: 0;
+}
+
+.timeline-block:nth-child(even) .timeline-content {
+	padding-left: 70px;
+	float: right;
+}
+
+.timeline-border {
+	border: 10px solid white;
+}
