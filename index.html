@@ -27,8 +27,8 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-main">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#top">Home</a></li>
-                <li><a href="#quotes">Quotes</a></li>
+                <li id="homebutton"><a href="#top">Home</a></li>
+                <li><a href="#theCarousel">Quotes</a></li>
                 <li><a href="#theTimeline">Timeline</a></li>
                 <li><a href="#resources">Resources</a></li>
               </ul>
@@ -40,7 +40,7 @@
         </div>
       </header>
 
-      <div id="quotes" class="carousel slide" data-ride="carousel">
+      <div id="theCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#theCarousel" data-slide-to="1"></li>
@@ -308,7 +308,15 @@
         <a href="https://www.freepik.com/free-photo/flower-near-teapot_1722258.htm">Floral Background Designed by Freepik</a>
       </div>
 
+      $('.navbar-brand img').click(function(){
+        $('body, html').animate({scrollTop: 0}, 1000);
+      });
+
+      $('#homebutton').click(function(){
+        $('body, html').animate({scrollTop: 0}, 500);
+      });
 
     </div>
   </body>
+
 </html>

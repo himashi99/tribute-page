@@ -46,6 +46,14 @@ html, body {
   width: 50% !important;
 }
 
+.carousel-indicators li {
+	background-color: #EBB1B2 !important;
+}
+
+.glyphicon {
+	color: #C3C0C8 !important;
+}
+
 footer {
   background-color: #e1d0c9;
 }
