@@ -11,8 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div id="top"></div>
-    <!-- <div class="wrapper"> -->
+
       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <div class="navbar-default">
@@ -22,22 +21,22 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="public/assets/backup-images/feather-quill-gray.png" height="35" width="35">
-                </a>
+                <a class="navbar-brand" href="#"><img src="public/assets/backup-images/feather-quill-gray.png" height="35" width="35"></a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-main">
               <ul class="nav navbar-nav navbar-right">
-                <li id="homebutton"><a href="#top">Home</a></li>
-                <li><a href="#theCarousel">Quotes</a></li>
-                <li><a href="#theTimeline">Timeline</a></li>
-                <li><a href="#resources">Resources</a></li>
+                <li id="home-button"><a href="#">Home</a></li>
+                <li id="quotes-button"><a href="#">Quotes</a></li>
+                <li id="timeline-button"><a href="#">Timeline</a></li>
+                <li id="resources-button"><a href="#">Resources</a></li>
               </ul>
             </div>
         </div>
-      </nav>
+      </nav> <!-- navbar -->
+
       <header>
         <div class="banner">
-        </div>
+        </div> <!-- banner background image -->
       </header>
 
       <div id="theCarousel" class="carousel slide" data-ride="carousel">
@@ -46,44 +45,44 @@
           <li data-target="#theCarousel" data-slide-to="1"></li>
           <li data-target="#theCarousel" data-slide-to="2"></li>
         </ol>
+
         <div class="carousel-inner">
           <div class="item active">
           <div class="slide1"></div>
-          <blockquote>
-            <p>There is a stubbornness about me that never can bear to be frightened at the will of others. My courage always rises at every attempt to intimidate me.</p>
-          </blockquote>
-          <small><em>Pride and Prejudice</em></small>
+            <blockquote>
+              <p>There is a stubbornness about me that never can bear to be frightened at the will of others. My courage always rises at every attempt to intimidate me.</p>
+            </blockquote>
+            <small><em>Pride and Prejudice</em></small>
           </div>
 
           <div class="item">
           <div class="slide2"></div>
-          <blockquote>
-            <p>Know your own happiness. Want for nothing but patience – or give it a more fascinating name: Call it hope.</p>
-          </blockquote>
-          <small><em>Sense and Sensibility</em></small>
+            <blockquote>
+              <p>Know your own happiness. Want for nothing but patience – or give it a more fascinating name: Call it hope.</p>
+            </blockquote>
+            <small><em>Sense and Sensibility</em></small>
           </div>
 
           <div class="item">
           <div class="slide3"></div>
-          <blockquote>
-            <p>You pierce my soul. I am half agony, half hope. Tell me not that I am too late, that such precious feelings are gone for ever.</p>
-          </blockquote>
-          <small><em>Persuasion</em></small>
+            <blockquote>
+              <p>You pierce my soul. I am half agony, half hope. Tell me not that I am too late, that such precious feelings are gone for ever.</p>
+            </blockquote>
+            <small><em>Persuasion</em></small>
           </div>
-        </div>
+        </div> <!-- carousel-inner -->
 
         <a class="left carousel-control" href="#theCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="glyphicon glyphicon-chevron-left"></span>
         </a>
         <a class="right carousel-control" href="#theCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
-      </div>
+      </div> <!-- theCarousel -->
 
       <section id="theTimeline" class="timeline-section">
         <div class="timeline-border">
         <div class="timeline-container">
-
 
           <div class="timeline-block">
             <div class="timeline-circle"></div>
@@ -273,20 +272,21 @@
               <p>The first popular editions of Austen's novels are published, sparking Austen fandom that continues to this day. Critic (and father of Virginia Woolf) Leslie Stephens calls her rabid following "Austenolatry."</p>
             </div> <!-- timeline-content -->
           </div> <!-- timeline-block -->
-        </div> <!-- timeline-border -->
+
         </div> <!-- timeline-container -->
+      </div> <!-- timeline-border -->
       </section> <!-- timeline-section -->
 
-      <div class="white-space">
-      </div>
+      <div class="white-space"> </div> <!-- white space between timeline and footer -->
 
       <footer class="container-fluid text-center" id="resources">
         <div class="row tag-line">
+
           <div class="col-lg-8 col-md-8 col-sm-8 col xm 12">
             <p><span class="tag-line-number">6</span> Novels, <span class="tag-line-number">200</span> Years, <span class="emphasized">Millions of Fans</span><p>
           </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-4 col xm 12">
+          <div class="col-lg-4 col-md-4 col-sm-4 col xm 12"> <!-- 2nd column -->
             <h4 class="resource-title">Resoures</h1>
               <ul class="resources">
                 <li><a href="https://en.wikipedia.org/wiki/Jane_Austen"><p>Wikipedia</p></a></li>
@@ -295,28 +295,46 @@
                 <li><a href="http://www.mollands.net/index.html"><p>Mollands</p></a></li>
                 <li><a href="https://www.amazon.ca/Jane-Austen-Complete-Classics-hardcover/dp/0141395206/ref=sr_1_3?ie=UTF8&qid=1526498014&sr=8-3&keywords=jane+austen"><p>Amazon</p></a></li>
                 <li><a href="https://www.etsy.com/ca/search?q=jane%20austen"><p>Etsy</p></a></li>
+                <li><a href="https://www.shmoop.com/jane-austen/timeline.html"><p>Timeline</p></a></li>
               </ul>
-          </div>
-
-
+          </div> <!-- end of 2nd column -->
+        </div> <!-- row tag-line -->
       </footer>
+
       <div class="copyright">
-        <p>Copyright © 2018 Himashi Hettege Dona</p>
-      </div>
-      <div class="freepik">
-        <a href="https://www.freepik.com/free-photo/flower-near-teapot_1722258.htm">Floral Background Designed by Freepik</a>
-      </div>
-      </div>
+        <div><p>Copyright © 2018 Himashi Hettege Dona</p></div>
+        <div><a href="https://www.freepik.com/free-photo/flower-near-teapot_1722258.htm"><p>Floral Background Designed by Freepik</p></a></div>
+      </div> <!-- copyright -->
+
     <script>
-    // Pressing Home Button and Nav Bar Image will scroll to top of page //
+
+    // Pressing Home Button will scroll to top of page //
       $('.navbar-brand img').click(function(){
-        $('body, html').animate({scrollTop: 0}, 1000);
+        $('body, html').animate({scrollTop: 0}, 700);
+      });
+    // Pressing Nav Bar Image will scroll to top of page //
+      $('#home-button').click(function(){
+        $('body, html').animate({scrollTop: 0}, 700);
       });
 
-      $('#homebutton').click(function(){
-        $('body, html').animate({scrollTop: 0}, 500);
+    // Pressing Quotes Button will scroll to top of page //
+      $(function() {
+        $("#quotes-button").on('click', function() {
+          var position = $("#theCarousel").offset().top; //calculates how far the top of the Carousel is from the top of the page
+          $('body, html').animate({ scrollTop: position }, 700); });
       });
 
+      $(function() {
+        $("#timeline-button").on('click', function() {
+          var position = $("#theTimeline").offset().top; //calculates how far the top of the Timeline is from the top of the page
+          $('body, html').animate({scrollTop: position}, 700); });
+      });
+
+      $(function() {
+        $("#resources-button").on('click', function() {
+          var position = $("#resources").offset().top; //calculates how far the top of the Resource Footer is from the top of the page
+          $('body, html').animate({scrollTop: position}, 700); });
+      });
 
     </script>
   </body>
